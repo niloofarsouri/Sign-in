@@ -1,0 +1,64 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+
+}
+
+.left_section {
+    width: 60%;
+    height: 750px;
+    background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
+}
+
+.right_section {
+    width: 40%;
+    height: 800px;
+}
+
+.right_section_sub {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 90%;
+    /* height: 300px; */
+    margin: 150px auto;
+    padding: 1rem;
+}
+
+input {
+    width: 90%;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: .25rem;
+    /* box-shadow: none; */
+}
+
+img {
+    margin: 0.5rem;
+}
+
+button {
+    width: 90%;
+    padding: .5rem;
+    margin: 0.5rem;
+    border-radius: .25rem;
+
+}
+
+.checkbox_box {
+    display: flex;
+
+}
+
+.checkbox_box input {
+    flex: 1;
+}
