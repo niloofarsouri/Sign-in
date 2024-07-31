@@ -21,17 +21,20 @@ body {
     height: 800px;
 }
 
-.right_section_sub {
-    border: 1px solid;
+.right_section_sub_one {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 1rem;
     width: 90%;
-    /* height: 300px; */
-    margin: 150px auto;
+    margin-top: 6rem;
     padding: 1rem;
+}
+
+.right_section_sub_one h1 {
+    margin: 0.5rem auto;
+    padding: 0;
 }
 
 input {
@@ -42,9 +45,9 @@ input {
     /* box-shadow: none; */
 }
 
-img {
+/* img {
     margin: 0.5rem;
-}
+} */
 
 button {
     width: 90%;
@@ -55,10 +58,17 @@ button {
 }
 
 .checkbox_box {
-    display: flex;
-
+    display: inline-flex;
+    align-items: start;
+    justify-content: start;
 }
 
 .checkbox_box input {
     flex: 1;
+}
+
+.right_section_sub_two {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
 }
