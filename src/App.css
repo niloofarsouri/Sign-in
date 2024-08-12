@@ -12,13 +12,14 @@ body {
 
 .left_section {
     width: 60%;
-    height: 750px;
     background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
 }
 
 .right_section {
+    padding: 0;
+    margin: 6rem auto;
     width: 40%;
-    height: 800px;
+    height: 600px;
 }
 
 .right_section_sub_one {
@@ -28,7 +29,7 @@ body {
     justify-content: center;
     padding: 1rem;
     width: 90%;
-    margin-top: 6rem;
+    margin: 1rem auto;
     padding: 1rem;
 }
 
@@ -37,7 +38,7 @@ body {
     padding: 0;
 }
 
-input {
+.right_section input {
     width: 90%;
     padding: 1rem;
     margin: 0.5rem;
@@ -45,9 +46,6 @@ input {
     /* box-shadow: none; */
 }
 
-/* img {
-    margin: 0.5rem;
-} */
 
 button {
     width: 90%;
@@ -61,14 +59,46 @@ button {
     display: inline-flex;
     align-items: start;
     justify-content: start;
+    padding: 1rem;
 }
 
-.checkbox_box input {
+.checkbox_box>input {
     flex: 1;
 }
 
 .right_section_sub_two {
     display: flex;
     justify-content: space-around;
-    margin-top: 0;
+    margin: 0.5rem auto;
+}
+
+
+/* // */
+
+.main-xs {
+    background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
+}
+
+.right-section-xs {
+    padding: 0;
+    margin: 6rem auto;
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-section-xs input {
+    margin: 0.5rem auto;
+    padding: 5px;
+
+}
+
+.right_section_sub_two-xs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0.5rem auto;
 }
